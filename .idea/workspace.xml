@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49e9d891-4841-480d-84e8-8e23670828a7" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/Index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/._TunelLogo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/._TunelLogo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/._TunelLogo2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/._TunelLogo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/._TunelLogo3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/._TunelLogo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/._TunelLogo5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/TunelLogo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/TunelLogo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/TunelLogo2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/TunelLogo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/TunelLogo3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/TunelLogo4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/TunelLogo5.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,8 +31,8 @@
       <file leaf-file-name="Index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+            <state relative-caret-position="226">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -35,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="472">
-              <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+              <caret line="75" column="16" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -122,12 +137,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541033265250</updated>
-      <workItem from="1541033267547" duration="6657000" />
+      <workItem from="1541033267547" duration="7088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6657000" />
+    <option name="totallyTimeSpent" value="7088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1440" y="202" width="744" height="878" extended-state="0" />
@@ -170,15 +185,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        <state relative-caret-position="226">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="472">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+          <caret line="75" column="16" selection-start-line="75" selection-start-column="15" selection-end-line="75" selection-end-column="16" />
         </state>
       </provider>
     </entry>
