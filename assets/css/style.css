@@ -17,10 +17,11 @@ body {
 
 }
 
-.wrapper,
 .indexPage {
     justify-content: center;
 }
+
+
 
 .mainSection {
     display: flex;
@@ -76,3 +77,29 @@ body {
 .logoContainer img {
     width: 100%;
 }
+
+.header {
+    background-color: #FAFAFA;
+    border-bottom: 1px solid #ebebeb;
+}
+
+.wrapper .headerContent {
+    display: flex;
+    align-items: center;
+}
+
+.headerContent .logoContainer {
+    width: 150px;
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+
+.headerContent .searchContainer {
+    flex: 1;
+    display: inline-block;
+}
+
+.headerContent.searchContainer form {
+    margin: 15px 0 28px 0;
+}
+

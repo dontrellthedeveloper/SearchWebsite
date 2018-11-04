@@ -2,13 +2,13 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Welcome to Tunel Search</title>
+    <title>Welcome to Tunnel Search</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
-<div class="wrapper indexPage">
+<div class="wrapper">
 
     <div class="header">
 
@@ -16,10 +16,8 @@
 
             <div class="logoContainer">
                 <a href="Index.php">
-                    <img src="assets/images/TunnelLogo.png" name="term">
-                    <button>
-                        Search
-                    </button>
+                    <img src="assets/images/TunnelLogo4.svg" name="term">
+
                 </a>
 
             </div>
@@ -32,11 +30,17 @@
 
                         <input class="searchBox" type="text">
 
+                            <button>Search</button>
+
+
                     </div>
 
                 </form>
 
+
             </div>
+
+
 
         </div>
 
