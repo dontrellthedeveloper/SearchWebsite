@@ -154,9 +154,17 @@ body {
     font-size: 13px;
 }
 
-.tabsContainer.tabList li a {
+.tabList li a {
     text-decoration: none;
 }
 
+.tabsContainer .tabList li.active {
+    border-bottom: 3px solid #d54118;
+}
+
+.tabsContainer .tabList li.active a {
+    font-weight: bold;
+    color: #d54118;
+}
 
 
