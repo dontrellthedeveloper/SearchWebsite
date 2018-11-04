@@ -13,7 +13,7 @@
 
             <div class="logoContainer">
 
-                <img src="img/TunelLogo2.svg" alt="">
+                <img src="img/TunelLogo3.svg" alt="">
 
             </div>
 
