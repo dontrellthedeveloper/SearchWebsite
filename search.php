@@ -30,7 +30,9 @@
 
                         <input class="searchBox" type="text">
 
-                            <button>Search</button>
+                            <button class="searchButton">
+                                <img src="assets/images/icons/Search2.png" alt="">
+                            </button>
 
 
                     </div>
