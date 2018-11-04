@@ -17,7 +17,8 @@ body {
 
 }
 
-.wrapper .indexPage {
+.wrapper,
+.indexPage {
     justify-content: center;
 }
 

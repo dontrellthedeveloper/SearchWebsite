@@ -3,7 +3,7 @@
 <head>
     <title>Welcome to Tunel Search</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
 
@@ -13,7 +13,7 @@
 
             <div class="logoContainer">
 
-                <img src="assets/images/TunelLogo3.svg" alt="">
+                <img src="assets/images/TunnelLogo.png" alt="">
 
             </div>
 
