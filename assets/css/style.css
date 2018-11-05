@@ -225,6 +225,16 @@ body {
     height: 37px;
 }
 
+.pageNumberContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+}
 
+.pageNumber {
+    color: #5d2b4d;
+    font-size: 13px;
+}
 
 

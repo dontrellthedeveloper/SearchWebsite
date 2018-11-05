@@ -113,6 +113,26 @@ include("classes/SiteResultsProvider.php");
             </div>
 
 
+            <?php
+
+            $currentPage = 1;
+            $pagesLeft = 10;
+
+            while($pagesLeft != 0) {
+
+                echo "<div class='pageNumberContainer'>
+                <img src='assets/images/page/page.png'>
+                <span class='pageNumber'>$currentPage</span>
+                </div>";
+
+                $currentPage++;
+                $pagesLeft--;
+
+            }
+
+            ?>
+
+
             <div class="pageNumberContainer">
                 <img src="assets/images/page/pageEnd.png">
             </div>
