@@ -177,4 +177,38 @@ body {
     margin-left: 150px;
 }
 
+.mainResultsSection .siteResults {
+    margin-left: 150px;
+}
+
+.resultContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 26px;
+}
+
+.resultContainer .title {
+    margin: 0;
+}
+
+.resultContainer .title a {
+    color: #87210a;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.resultContainer .title a:hover {
+    text-decoration: underline;
+}
+
+.resultContainer .url {
+    color: #c07bb3;
+    font-size: 14px;
+}
+
+.resultContainer .description {
+    font-size: 12px;
+}
+
 
