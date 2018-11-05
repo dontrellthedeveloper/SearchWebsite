@@ -18,7 +18,7 @@
 
             <div class="logoContainer">
 
-                <img src="assets/images/TunnelLogo.png" alt="">
+                <img src="assets/images/TunnelLogo.png" title="Logo of Our Site" alt="Site Logo">
 
             </div>
 
