@@ -43,8 +43,8 @@
       <file leaf-file-name="crawl.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            <state relative-caret-position="216">
+              <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -120,6 +120,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/dontrellwashington/.bitnami/stackman/machines/xampp/volumes/root/htdocs/Tunel/classes/DomDocumentParser.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -147,12 +148,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541033265250</updated>
-      <workItem from="1541033267547" duration="16202000" />
+      <workItem from="1541033267547" duration="18065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16202000" />
+    <option name="totallyTimeSpent" value="18065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1440" y="202" width="744" height="863" extended-state="0" />
@@ -216,8 +217,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state relative-caret-position="216">
+          <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
