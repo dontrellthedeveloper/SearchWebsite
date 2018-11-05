@@ -1,3 +1,15 @@
 $(document).ready(function() {
-    console.log("hello");
+
+    $(".result").on("click", function() {
+
+        var url = $(this).attr("href");
+        console.log(url)
+
+       return false;
+    });
+
 });
+
+function increaseLinkClicked(linkedId, url,) {
+    
+}
