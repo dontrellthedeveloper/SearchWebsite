@@ -120,10 +120,22 @@ include("classes/SiteResultsProvider.php");
 
             while($pagesLeft != 0) {
 
-                echo "<div class='pageNumberContainer'>
-                <img src='assets/images/page/page.png'>
+                if($currentPage == $page) {
+                    echo "<div class='pageNumberContainer'>
+                <img src='assets/images/page/pageSelected.png'>
                 <span class='pageNumber'>$currentPage</span>
                 </div>";
+                }
+                else {
+                    echo "<div class='pageNumberContainer'>
+                <a href='search.php?term&type=&page=$currentPage'>
+                <img src='assets/images/page/page.png'>
+                <span class='pageNumber'>$currentPage</span>
+                </a>
+                </div>";
+                }
+
+
 
                 $currentPage++;
                 $pagesLeft--;
