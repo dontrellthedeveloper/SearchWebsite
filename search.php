@@ -101,6 +101,28 @@ include("classes/SiteResultsProvider.php");
 
     </div>
 
+
+    <div class="paginationContainer">
+
+        <div class="pageButtons">
+
+
+
+            <div class="pageNumberContainer">
+                <img src="assets/images/page/pageStart.png">
+            </div>
+
+
+            <div class="pageNumberContainer">
+                <img src="assets/images/page/pageEnd.png">
+            </div>
+
+
+
+        </div>
+    </div>
+    
+
 </div>
 
 
