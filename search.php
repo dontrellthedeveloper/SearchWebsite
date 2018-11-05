@@ -96,7 +96,9 @@ include("classes/SiteResultsProvider.php");
 
     $numResults = $resultsProvider->getNumResults($term);
 
-    echo "<p class='resultsCount'>$numResults results found</p>"
+    echo "<p class='resultsCount'>$numResults results found</p>";
+
+    echo $resultsProvider->getResultsHtml(1,20, $term);
 
     ?>
 
