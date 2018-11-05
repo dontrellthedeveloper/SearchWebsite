@@ -21,6 +21,11 @@ include("classes/SiteResultsProvider.php");
     <title>Welcome to Tunnel Search</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script
+            src="https://code.jquery.com/jquery-3.3.1.min.js"
+            integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+            crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -169,6 +174,6 @@ include("classes/SiteResultsProvider.php");
 
 </div>
 
-
+<script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
