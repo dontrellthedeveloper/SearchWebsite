@@ -48,8 +48,7 @@ include("classes/SiteResultsProvider.php");
 
                     <div class="searchBarContainer">
 
-                        <input class="searchBox" type="text">
-
+                        <input class="searchBox" type="text" name="term" value="<?php echo $term ?>">
                             <button class="searchButton">
                                 <img src="assets/images/icons/Search2.png" alt="">
                             </button>
