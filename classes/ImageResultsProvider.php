@@ -29,11 +29,11 @@ class ImageResultsProvider {
         $fromLimit = ($page - 1) * $pageSize;
 
         $query = $this->con->prepare("SELECT * 
-										 FROM sites WHERE title LIKE :term 
-										 OR url LIKE :term 
-										 OR keywords LIKE :term 
-										 OR description LIKE :term
-										 ORDER BY clicks DESC
+										 FROM Images 
+										 WHERE (title LIKE :term 
+										 OR alt LIKE :term)
+										 AND broken=0
+										 ORDER BY click DESC
 										 LIMIT :fromLimit, :pageSize");
 
         $searchTerm = "%". $term . "%";
@@ -43,28 +43,33 @@ class ImageResultsProvider {
         $query->execute();
 
 
-        $resultsHtml = "<div class='siteResults'>";
+        $resultsHtml = "<div class='imageResults'>";
 
 
         while($row = $query->fetch(PDO::FETCH_ASSOC)) {
             $id = $row["id"];
-            $url = $row["url"];
+            $imageUrl = $row["imageUrl"];
+            $siteUrl = $row["siteUrl"];
             $title = $row["title"];
-            $description = $row["description"];
+            $alt = $row["alt"];
 
-            $title = $this->trimField($title, 55);
-            $description = $this->trimField($description, 230);
+            if($title) {
+                $displayText = $title;
+            }
+            elseif ($alt) {
+                $displayText = $alt;
+            }
+            else {
+                $displayText = $imageUrl;
+            }
+            
 
-            $resultsHtml .= "<div class='resultContainer'>
+            $resultsHtml .= "<div class='gridItem'>
 
-								<h3 class='title'>
-									<a class='result' href='$url' data-linkId='$id'>
-										$title
-									</a>
-								</h3>
-								<span class='url'>$url</span>
-								<span class='description'>$description</span>
-
+								<a href='$imageUrl'>
+								<img src='$imageUrl'>
+                                </a>
+							
 							</div>";
 
 
