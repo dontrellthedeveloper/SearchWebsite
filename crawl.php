@@ -181,7 +181,7 @@ function followLinks($url) {
 
 }
 
-$startUrl = "https://www.nfl.com";
+$startUrl = "https://www.travel.com";
 
 followLinks($startUrl);
 ?>
