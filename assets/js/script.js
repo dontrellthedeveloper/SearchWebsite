@@ -43,11 +43,15 @@ function loadImage(src, className) {
         
         timer = setTimeout(function () {
             $(".imageResults").masonry();
-        }, 500);
+        }, 100);
 
     });
 
     image.on("error", function() {
+
+        $("." + className).remove();
+
+        $.post("ajax/setBroken.php", {src: src});
 
     });
 
