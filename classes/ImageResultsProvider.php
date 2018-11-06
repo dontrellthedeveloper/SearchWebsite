@@ -69,10 +69,12 @@ class ImageResultsProvider {
 								<a href='$imageUrl'>
 								<img src='$imageUrl'>
                                 </a>
+                                
+                                <span class='details'>
+                                $displayText
+                                </span>
 							
 							</div>";
-
-
         }
 
 
